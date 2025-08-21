@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="contact-section">
+        <h2 style="text-align:center;">Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="tel" name="contact" placeholder="Contact Number" required pattern="[0-9]{10}">
+            <input type="email" name="email" placeholder="Email Address" required>
+            <textarea name="message" placeholder="Your Message" rows="5" style="height: 100px; border-radius: 18px;" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <div class="footer">
+        &copy; 2025 Kishore Baalaji. All rights reserved.
+    </div>
+</body>
+</html>
